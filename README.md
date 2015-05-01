@@ -1,19 +1,13 @@
-**DOCUMENTATION, CODE EXAMPLES ARE IN PROGRESS, SOME FEATURE AND BUG FIXING TOO.**
-
-**[e-mail me] for question or suggestion.**
-
-Stay tuned and come back soon.
-
----------------------------------------------------------------------------
-
-# Angryd v1.0.0 beta
+# Angryd v1.0.1
 
 _An AngularJS directive for declarative creation of data tables_
 
-## Version History
+## Install demo
 
-#### v1.0.0 beta
-Published on 2014-09-10 is the first and **current** beta released
+'''
+git clone https://github.com/lelettrone/angryd
+bower install
+'''
 
 ## List of JsBin examples
 - Bind data to the Angryd directive: [jsbin-data-binding]
