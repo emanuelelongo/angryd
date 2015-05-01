@@ -2,8 +2,7 @@
 
 _An AngularJS directive for declarative creation of data tables_
 
-## Install demo
-
+## Install demo from bashs
 ```bash
 mkdir angryd
 git clone https://github.com/lelettrone/angryd.git angryd
@@ -13,13 +12,13 @@ open demo/demo.html
 ``` 
 
 ## List of Live examples on CodePen
-- Bind data to the Angryd directive: [liveex-data-binding]
-- Add pagination feature to the grid: [liveex-data-pagination]
-- A look at nude Angryd table: [liveex-no-style]
-- Use the bootstrap skin: [liveex-bootstrap-skin]
-- Editing data: [jliveex-editing]
-- Sorting data: [liveex-sorting]
-- Server side data: [liveex-server-data]
+- Bind data to the Angryd directive: [codepen-data-binding]
+- Add pagination feature to the grid: [codepen-data-pagination]
+- A look at nude Angryd table: [codepen-no-style]
+- Use the bootstrap skin: [codepen-bootstrap-skin]
+- Editing data: [jcodepen-editing]
+- Sorting data: [codepen-sorting]
+- Server side data: [codepen-server-data]
 
 ## Features description
 
@@ -123,7 +122,7 @@ Bind your data to an angryd directive in your view indicating the data source an
 </angryd>
 ```
 
-Try angryd data binding on JsBin: [jsbin-data-binding]
+Try angryd data binding on codepen: [codepen-data-binding]
 
 ## Data pagination
 
@@ -138,14 +137,14 @@ Change previous example by adding the **`page-size`** attribute to the angryd di
 A footer with paging controls will be added to your table.
 Because data is stored locally, pagination is automatically handled for you effortlessly.
 
-Try data pagination on JsBin [jsbin-data-pagination] **UNDER CONSTRUCTION**
+Try data pagination on codepen [codepen-data-pagination] **UNDER CONSTRUCTION**
 
 ## Style
 
 Angryd directive comes without any style. This means that if you don't import any skin file and you don't include the skin attribute, you get litte more than just a styleless html table.
 All feature can be activated but the result is an ugly sight. User interface is composed by only english word and some ASCII symbol.
 
-See an ugly angryd table without style on JsBin [jsbin-no-style] **UNDER CONSTRUCTION**
+See an ugly angryd table without style on codepen [codepen-no-style] **UNDER CONSTRUCTION**
 
 Skin files can contains css and text that can transform grid appereance. This give you several choice for customization: you can use pure CSS, you can download a skin file from this site and modify it, or you can write your skin file from scratch.
 
@@ -167,7 +166,7 @@ This will add an header and a title to the grid.
 <angryd data="myBigData" page-size="10" heading="'Users'" skin="bootstrap" >
 ```
 
-Try the bootstrap skin on JsBin [jsbin-bootstrap-skin] **UNDER CONSTRUCTION**
+Try the bootstrap skin on codepen [codepen-bootstrap-skin] **UNDER CONSTRUCTION**
 
 ## Editing data
 
@@ -188,7 +187,7 @@ Now you can select, create, edit and remove rows.
 Selection is maintained cross pages and you can view current selection lenght in the right side of the footer.
 Created rows are inserted on top of current page but if sorting is active they will be repositioned on first page changing. All changes are done directly to the data source unless you discard it.
 
-Try editing data feature on JsBin [jsbin-editing]
+Try editing data feature on codepen [codepen-editing]
 
 ## Custom actions on row data
 
@@ -232,7 +231,7 @@ To activate sorting feature, add `sort="true"` attribute in the columns you want
 You can sort your data by multiple clicks on column headers.
 First click on a column will activate ascending sort, second click will switch to descending sort, third click will deactivate sort. Inside the footer you can see on which column you are currently sorting by.
 
-Try editing data feature on JsBin [jsbin-sorting]
+Try editing data feature on codepen [codepen-sorting]
 
 ## Loading data from server
 
@@ -320,15 +319,16 @@ Set it to true if you want to allow user to remove the selected rows.
 
 Set it to true if you want to allow user to insert new rows.
 
-Try server data binding on JsBin: [jsbin-server-binding]
+Try server data binding on codepen: [codepen-server-binding]
 
-**UNDER CONSTRUCTION**
+##### handling events
+**DOCUMENT UNDER CONSTRUCTION**
 
 [e-mail me]: mailto:longo.emanuele@gmail.com
-[liveex-data-binding]: http://codepen.io/lelettrone/pen/BNNYRJ?editors=101
-[liveex-data-pagination]: http://codepen.io/lelettrone/pen/XbbZRv?editors=101
-[liveex-no-style]: http://codepen.io/lelettrone/pen/vOOdZx?editors=101
-[liveex-bootstrap-skin]: http://codepen.io/lelettrone/pen/Nqqygz?editors=101
-[liveex-editing]: http://codepen.io/lelettrone/pen/eNNVRa?editors=101
-[liveex-sorting]: http://codepen.io/lelettrone/pen/xGGYXG?editors=101
-[liveex-server-data]: http://codepen.io/lelettrone/pen/RPPQLV?editors=101
+[codepen-data-binding]: http://codepen.io/lelettrone/pen/BNNYRJ?editors=101
+[codepen-data-pagination]: http://codepen.io/lelettrone/pen/XbbZRv?editors=101
+[codepen-no-style]: http://codepen.io/lelettrone/pen/vOOdZx?editors=101
+[codepen-bootstrap-skin]: http://codepen.io/lelettrone/pen/Nqqygz?editors=101
+[codepen-editing]: http://codepen.io/lelettrone/pen/eNNVRa?editors=101
+[codepen-sorting]: http://codepen.io/lelettrone/pen/xGGYXG?editors=101
+[codepen-server-data]: http://codepen.io/lelettrone/pen/RPPQLV?editors=101

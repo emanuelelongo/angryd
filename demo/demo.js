@@ -26,6 +26,4 @@ angular.module('demoApp', ['angryd'])
 	    username: "r.choi", 
 	    online: false 
 	}];
-	
-	console.log("demoController loaded");
 });
