@@ -4,10 +4,10 @@ _An AngularJS directive for declarative creation of data tables_
 
 ## Install demo
 
-'''bash
+```bash
 git clone https://github.com/lelettrone/angryd
 bower install
-'''
+``` 
 
 ## List of JsBin examples
 - Bind data to the Angryd directive: [jsbin-data-binding]
