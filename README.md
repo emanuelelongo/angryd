@@ -1,4 +1,4 @@
-# Angryd v1.0.1
+# Angryd
 
 _An AngularJS directive for declarative creation of data tables_
 
