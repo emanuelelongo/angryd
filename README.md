@@ -5,18 +5,21 @@ _An AngularJS directive for declarative creation of data tables_
 ## Install demo
 
 ```bash
-git clone https://github.com/lelettrone/angryd
+mkdir angryd
+git clone https://github.com/lelettrone/angryd.git angryd
+cd angryd
 bower install
+open demo/demo.html
 ``` 
 
-## List of JsBin examples
-- Bind data to the Angryd directive: [jsbin-data-binding]
-- Add pagination feature to the grid: [jsbin-data-pagination]
-- A look at nude Angryd table: [jsbin-no-style]
-- Use the bootstrap skin: [jsbin-bootstrap-skin]
-- Editing data: [jsbin-editing]
-- Sorting data: [jsbin-sorting]
-- Server side data: [jsbin-server-data]
+## List of Live examples on CodePen
+- Bind data to the Angryd directive: [liveex-data-binding]
+- Add pagination feature to the grid: [liveex-data-pagination]
+- A look at nude Angryd table: [liveex-no-style]
+- Use the bootstrap skin: [liveex-bootstrap-skin]
+- Editing data: [jliveex-editing]
+- Sorting data: [liveex-sorting]
+- Server side data: [liveex-server-data]
 
 ## Features description
 
@@ -322,10 +325,10 @@ Try server data binding on JsBin: [jsbin-server-binding]
 **UNDER CONSTRUCTION**
 
 [e-mail me]: mailto:longo.emanuele@gmail.com
-[jsbin-data-binding]: http://jsbin.com/pihitejinejo/edit?html,js,output
-[jsbin-data-pagination]: http://jsbin.com/qoteyi/edit?html,output
-[jsbin-no-style]: http://jsbin.com/soboj/edit?html,output
-[jsbin-bootstrap-skin]: http://jsbin.com/jeqel/edit?html,output
-[jsbin-editing]: http://jsbin.com/cegiw/edit?html,output
-[jsbin-sorting]: http://jsbin.com/hurelo/edit?html,output
-[jsbin-server-data]: http://jsbin.com/zekimo/edit?html,output
+[liveex-data-binding]: http://codepen.io/lelettrone/pen/BNNYRJ?editors=101
+[liveex-data-pagination]: http://codepen.io/lelettrone/pen/XbbZRv?editors=101
+[liveex-no-style]: http://codepen.io/lelettrone/pen/vOOdZx?editors=101
+[liveex-bootstrap-skin]: http://codepen.io/lelettrone/pen/Nqqygz?editors=101
+[liveex-editing]: http://codepen.io/lelettrone/pen/eNNVRa?editors=101
+[liveex-sorting]: http://codepen.io/lelettrone/pen/xGGYXG?editors=101
+[liveex-server-data]: http://codepen.io/lelettrone/pen/RPPQLV?editors=101
