@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+	<head>
+		<link rel="stylesheet" href="../libs/bootstrap.styles/css/bootstrap.css"></link>
+		<script type="text/javascript" src="../libs/angularjs/angular.js"></script>
+		<script type="text/javascript" src="../src/angryd.js"></script>
+		<script type="text/javascript" src="../src/angryd-basic-skin.js"></script>
+		<script type="text/javascript" src="demo.js"></script>
+	</head>
+	<body ng-controller="demoController">
+		<angryd data="myData" skin="basic">
+            <column name="firstName" label="First Name" type="text"></column>
+            <column name="lastName" label="Last Name" type="text"></column>
+            <column name="username" label="Username" type="text"></column>
+            <column name="online" label="On-Line" type="checkbox"></column>
+        </angryd>
+	</body>
+</html>

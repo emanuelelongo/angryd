@@ -1,0 +1,28 @@
+{
+  "name": "angryd",
+  "main": "angryd.js",
+  "version": "1.0.1",
+  "authors": [
+    "Emanuele Longo <longo.emanuele@gmail.com>"
+  ],
+  "description": "grid directive for angularjs",
+  "keywords": [
+    "angularjs",
+    "grid",
+    "table",
+    "directive",
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.15",
+    "bootstrap.styles": "*"
+  }
+}
