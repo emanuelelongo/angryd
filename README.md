@@ -4,7 +4,7 @@ _An AngularJS directive for declarative creation of data tables_
 
 ## Install demo
 
-'''
+'''bash
 git clone https://github.com/lelettrone/angryd
 bower install
 '''
