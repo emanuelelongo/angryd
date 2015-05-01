@@ -2,7 +2,7 @@
 
 _An AngularJS directive for declarative creation of data tables_
 
-## Install demo from bashs
+## Install Demo (from bash)
 ```bash
 mkdir angryd
 git clone https://github.com/lelettrone/angryd.git angryd
@@ -321,7 +321,7 @@ Set it to true if you want to allow user to insert new rows.
 
 Try server data binding on codepen: [codepen-server-binding]
 
-##### handling events
+## Handling Events
 **DOCUMENT UNDER CONSTRUCTION**
 
 [e-mail me]: mailto:longo.emanuele@gmail.com
