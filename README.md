@@ -3,6 +3,7 @@
 _An AngularJS directive for declarative creation of data tables_
 
 ## Install Demo (from bash)
+
 ```bash
 mkdir angryd
 git clone https://github.com/lelettrone/angryd.git angryd
@@ -16,7 +17,7 @@ open demo/demo.html
 - Add pagination feature to the grid: [codepen-data-pagination]
 - A look at nude Angryd table: [codepen-no-style]
 - Use the bootstrap skin: [codepen-bootstrap-skin]
-- Editing data: [jcodepen-editing]
+- Editing data: [codepen-editing]
 - Sorting data: [codepen-sorting]
 - Server side data: [codepen-server-data]
 
