@@ -867,7 +867,7 @@ angular.module('angryd', [])
                                     scope.emitEvent('row_inserted', data, true);
                                 });
                         }
-                        else if (scope.usrUpdateRow()) {
+                        else if (scope.usrUpdateRow) {
                             scope.usrUpdateRow(scope.usrData[index])
                                 .success(function (data, status, headers, config) {
                                     scope.dataRow.angryd_state = false;
